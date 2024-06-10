@@ -1,8 +1,6 @@
 # iceberg-spark-gcs-compatibility
 script to download compatible iceberg spark and gcs connectors with nessie catalogue
 
-
-
 need to match versions between:
 
 - pyspark
@@ -35,5 +33,7 @@ https://spark.apache.org/downloads.html
 https://github.com/GoogleCloudDataproc/hadoop-connectors/issues/1099
   - shows you need to download hadoop on the machine too
 
+https://community.cloudera.com/t5/Community-Articles/Spark-Python-Supportability-Matrix/ta-p/379144
+  - install pyspark with specific hadoop version
 
 
